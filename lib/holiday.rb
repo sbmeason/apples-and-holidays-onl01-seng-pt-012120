@@ -8,6 +8,7 @@ end
 def add_supply_to_winter_holidays(holiday_hash, supply)
   (holiday_supplies)
   holiday_supplies[:winter].each do |holiday, decorations|
+    decorations << item
 end
 
 
